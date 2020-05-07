@@ -1080,7 +1080,7 @@
     wcwidth "^1.0.1"
     ws "^1.1.0"
 
-"@react-native-community/datetimepicker@file:../../react-native-community/datetimepicker":
+"@react-native-community/datetimepicker@file:datetimepicker":
   version "2.3.2"
   dependencies:
     invariant "^2.2.4"
