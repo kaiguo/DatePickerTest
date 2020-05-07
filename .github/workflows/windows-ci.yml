@@ -17,7 +17,7 @@ jobs:
 
     - name: Install Visual Studio components
       shell: powershell
-      run: .\.github\workflows\scripts\install-vs-features.ps1 Microsoft.VisualStudio.Component.VC.v141.x86.x64,Microsoft.VisualStudio.ComponentGroup.UWP.VC.v141
+      run: .\.github\workflows\scripts\install-vs-features.ps1 Microsoft.Component.MSBuild,Microsoft.VisualStudio.ComponentGroup.UWP.VC,Microsoft.VisualStudio.Component.VC.Tools.x86.x64,Microsoft.VisualStudio.Component.VC.v141.x86.x64,Microsoft.VisualStudio.ComponentGroup.UWP.VC.v141
 
     - name: Setup MSBuild
       uses: microsoft/setup-msbuild@v1.0.0
